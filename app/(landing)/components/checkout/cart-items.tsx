@@ -6,7 +6,7 @@ import Button from "../ui/button";
 import { FiCreditCard, FiTrash2 } from "react-icons/fi";
 import CardWithHeader from "../ui/card-with-header";
 import { useRouter } from "next/navigation";
-import { CartItem, useCartStore } from "@/app/hooks/use-cart-store";
+import { useCartStore } from "@/app/hooks/use-cart-store";
 import { getImageUrl } from "@/app/lib/api";
 
 type TCartItems = {
